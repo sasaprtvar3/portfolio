@@ -2,18 +2,26 @@
   <div id="app">
     <app-header></app-header>
     <main>
-      <router-view></router-view>
+      <router-view>
+        <base-home></base-home>
+      </router-view>
     </main>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader';
+import BaseHome from './components/BaseHome';
+import BaseAbout from './components/BaseAbout';
+import BaseContact from './components/BaseContact';
 
 export default {
   name: 'app',
   components: {
     AppHeader,
+    BaseHome,
+    BaseAbout,
+    BaseContact,
   },
 };
 </script>

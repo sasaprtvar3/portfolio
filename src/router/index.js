@@ -1,15 +1,27 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Hello from '@/components/Hello';
+import BaseHome from '@/components/BaseHome';
+import BaseAbout from '@/components/BaseAbout';
+import BaseContact from '@/components/BaseContact';
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Hello',
-      component: Hello,
+      path: '/home',
+      name: 'base-home',
+      component: BaseHome,
+    },
+    {
+      path: '/about',
+      name: 'base-about',
+      component: BaseAbout,
+    },
+    {
+      path: '/contact',
+      name: 'base-contact',
+      component: BaseContact,
     },
   ],
 });
