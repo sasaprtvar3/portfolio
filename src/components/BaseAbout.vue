@@ -5,7 +5,7 @@
         <br><br><br><br><br>
         <h1 style="text-align: left; margin:25px">Basics</h1>
         <p style="font-size:25px; margin:25px; text-align: left">
-            I am a junior developer. After
+            I am a junior developer. After 
             graduating highschool, I had signed up for summer classes at UCD to start
             my college path immediately. I spent a year studying there before
             transfering to ITT Technical Institue where I achieved my Bachelor
