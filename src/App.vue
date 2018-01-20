@@ -14,6 +14,7 @@ import AppHeader from './components/AppHeader';
 import BaseHome from './components/BaseHome';
 import BaseAbout from './components/BaseAbout';
 import BaseContact from './components/BaseContact';
+import JavaScriptComponent from './components/JavaScriptComponent';
 
 export default {
   name: 'app',
@@ -22,6 +23,7 @@ export default {
     BaseHome,
     BaseAbout,
     BaseContact,
+    JavaScriptComponent,
   },
 };
 </script>

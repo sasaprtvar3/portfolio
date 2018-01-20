@@ -1,6 +1,6 @@
 <template>
   <header>
-      <nav class="menu">
+      <nav class="menu" style="font-size:30px">
      <ul>
       <li><a href="#/">Home</a></li>
       <li><a href="#/about">About</a></li>
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'app-header',
 };

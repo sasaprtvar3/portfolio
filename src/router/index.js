@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import BaseHome from '@/components/BaseHome';
 import BaseAbout from '@/components/BaseAbout';
 import BaseContact from '@/components/BaseContact';
+import JavaScriptComponent from '@/components/JavaScriptComponent';
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/contact',
       name: 'base-contact',
       component: BaseContact,
+    },
+    {
+      path: '/javascript',
+      name: 'component-js',
+      component: JavaScriptComponent,
     },
   ],
 });
