@@ -1,6 +1,6 @@
 <template>
   <div id="component-js">
-      <h1>Hellooooo</h1>
+      <h1>Helloooo</h1>
   </div>
 </template>
 
