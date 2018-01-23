@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-header></app-header>
+    <app-header style="position: fixed; height:100px; padding: 0 708px 0 20px"></app-header>
     <main>
       <router-view>
         <base-home></base-home>
@@ -42,6 +42,5 @@ body {
 
 main {
   text-align: center;
-  margin-top: 40px;
 }
 </style>

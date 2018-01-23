@@ -1,13 +1,10 @@
 <template>
     <div id="home-base">
+        <br><br>
         <h1 style="font-size:100px">Welcome</h1>
-        <header>
-                <br>
-                <br>
-                <button href="#/javascript" class="button" style="font-size:20px">JavaScript</button>
-                <button href="#/keystone" class="button" style="font-size:20px">KeyStone</button>
-                <button href="#/vue" class="button" style="font-size:20px">Vue</button>
-        </header>
+                <a href="#/javascript" class="button" style="font-size:20px">JavaScript</a>
+                <a href="#/keystone" class="button" style="font-size:20px">KeyStone</a>
+                <a href="#/vue" class="button" style="font-size:20px">Vue</a>
     </div>
 </template>
 

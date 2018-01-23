@@ -1,12 +1,10 @@
 <template>
   <header>
-      <nav class="menu" style="font-size:30px">
      <ul>
       <li><a href="#/">Home</a></li>
       <li><a href="#/about">About</a></li>
       <li><a href="#/contact">Contact</a></li>
      </ul>
-    </nav>
   </header>
 </template>
 
@@ -24,17 +22,18 @@ header {
   padding: 0 16px 0 24px;
   background-color: #35495E;
   color: #ffffff;
+  font-size: 30px;
 }
 
 header span {
   display: block;
-  position: relative;
+  position: fixed;
   font-size: 20px;
   line-height: 1;
   letter-spacing: .02em;
   font-weight: 400;
   box-sizing: border-box;
-  padding-top: 16px;
+  padding-top: 0;
 }
 ul {
   list-style-type: none;

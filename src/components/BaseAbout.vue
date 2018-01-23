@@ -1,8 +1,8 @@
 <template>
     <div id="about-base">
-        <br>
+        <br><br><br>
         <h1 style="font-size:75px">About Me</h1>
-        <br><br><br><br><br>
+        <br><br><br>
         <h1 style="text-align: left; margin:25px">Basics</h1>
         <p style="font-size:25px; margin:25px; text-align: left">
             I am a junior developer. After 
@@ -24,6 +24,7 @@
             am a quick learner and take pride in my work.  
         </p>
         <h1 style="text-align: left; margin:25px">Interesting Facts</h1>
+        <p style="font-size:25px; margin:25px; text-align: left"></p>
     </div>
 </template>
 
