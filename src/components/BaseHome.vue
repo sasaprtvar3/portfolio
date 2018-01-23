@@ -2,9 +2,9 @@
     <div id="home-base">
         <br><br>
         <h1 style="font-size:100px">Welcome</h1>
-                <a href="#/javascript" class="button" style="font-size:20px">JavaScript</a>
-                <a href="#/keystone" class="button" style="font-size:20px">KeyStone</a>
-                <a href="#/vue" class="button" style="font-size:20px">Vue</a>
+                <a href="#/javascript" class="button" style="font-size:20px"><b>JavaScript</b></a>
+                <a href="#/keystone" class="button" style="font-size:20px"><b>KeyStone</b></a>
+                <a href="#/vue" class="button" style="font-size:20px"><b>Vue</b></a>
     </div>
 </template>
 

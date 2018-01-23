@@ -1,7 +1,8 @@
 <template>
-    <div id="about-base">
+<body>
+    <div id="about-base;" style="background-color: yellow">
         <br><br><br>
-        <h1 style="font-size:75px">About Me</h1>
+        <h1 style="font-size:75px;">About Me</h1>
         <br><br><br>
         <h1 style="text-align: left; margin:25px">Basics</h1>
         <p style="font-size:25px; margin:25px; text-align: left">
@@ -24,8 +25,19 @@
             am a quick learner and take pride in my work.  
         </p>
         <h1 style="text-align: left; margin:25px">Interesting Facts</h1>
-        <p style="font-size:25px; margin:25px; text-align: left"></p>
+        <p style="font-size:25px; margin:0px 25px; text-align: left"> I was born in
+            eastern Europe in a country called Serbia. I am 100% Serbian and speak
+            the language fluently. It is my first language followed by English
+            and then JavaScript. I came here when I was 8 months old but I love
+            to go back every chance I get to see family. Traveling the world is
+            my favorite hobby. I love to see new things and learn other cultures.
+            I am a huge sports fan, played basketball, soccer, tennis and football.
+            I enjoy snowboarding during the summer and hiking with my dog during 
+            the summer in my free time.
+            <br><br>
+        </p>
     </div>
+</body>
 </template>
 
 <script>
@@ -34,6 +46,5 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style scoped> 
 </style>
