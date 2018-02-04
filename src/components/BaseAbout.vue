@@ -1,12 +1,12 @@
 <template>
 <body>
-    <div id="about-base;" style="background-color: yellow">
+    <div id="about-base;">
         <br><br><br>
         <h1 style="font-size:75px;">About Me</h1>
         <br><br><br>
         <h1 style="text-align: left; margin:25px">Basics</h1>
         <p style="font-size:25px; margin:25px; text-align: left">
-            I am a junior developer. After 
+            I am a junior developer. After I
             graduating highschool, I had signed up for summer classes at UCD to start
             my college path immediately. I spent a year studying there before
             transfering to ITT Technical Institue where I achieved my Bachelor
@@ -47,4 +47,7 @@ export default {
 </script>
 
 <style scoped> 
+body {
+    background-color: yellow;
+}
 </style>
